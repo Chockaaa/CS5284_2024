@@ -1,0 +1,25 @@
+CS5284 Notes
+
+Shallow Graph Feature Learning
+Exercise 1 : Design a random walk extractor
+* Question 1.1 : Implement a class that generates a random walk path.
+* Question 1.2 : Use the previously defined function to sample a random walk path.
+Exercise 2 : Implement the DeepWalk paper
+* Question 2.1 : Implement a DeepWalk network class and apply it to molecular graphs
+* Question 2.2 : Instantiate a DeepWalk network
+* Question 2.3 : Compare visually the deepwalk embedding with the networkx visualization
+
+Exercise 1 : Build a graph with Deep Graph Library (DGL)
+* Question 1.1 : Create a cycle graph of 7 nodes with DGL and convert it to a bidirectional graph
+* Question 1.2 : Add node and edge features to the previously defined DGL graph
+
+Exercise 2 : Compute a message-passing function with DGL
+* Question 2.1 : Implement Step 1 of a message-passing function with DGL
+* Question 2.2 : Implement Step 2 of amessage-passing with DGL
+
+Exercise 3: Create a batch of (two) DGL graphs
+Exercise 4 : Conversions between DGL, NetworkX, (dense and sparse) PyTorch graphs
+* Question 4.1 : Convert a DGL graph to a NetworkX graph
+* Question 4.2 : Visualise a graph with NetworkX
+- Question 4.3 : Visualise a graph with the eigenvectors (i.e. map a graph to a k-dim Euclidean space)
+- Question 4.4 : Convert a DGL graph to a PyTorch tensor
