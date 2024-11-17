@@ -1,6 +1,8 @@
 CS5284 Notes
 
 Shallow Graph Feature Learning
+
+
 Exercise 1 : Design a random walk extractor
 * Question 1.1 : Implement a class that generates a random walk path.
 * Question 1.2 : Use the previously defined function to sample a random walk path.
@@ -23,3 +25,28 @@ Exercise 4 : Conversions between DGL, NetworkX, (dense and sparse) PyTorch graph
 * Question 4.2 : Visualise a graph with NetworkX
 - Question 4.3 : Visualise a graph with the eigenvectors (i.e. map a graph to a k-dim Euclidean space)
 - Question 4.4 : Convert a DGL graph to a PyTorch tensor
+
+
+=============================================================
+
+
+Graph Convolutional Networks
+
+Lab 01 : ChebNets -- Solution
+    * Question 1: Implement ChebNet based on the CNN LeNet-5 architecture
+    * Question 2: Print basic information of ChebNet, and test the forward and backward passes with one batch
+    * Question 3: Training ChebNet
+
+Lab 02 : GCNs -- Solution
+    * Question 1: Add a node feature with the in-degree node
+    * Question 2: Define the collate function to generate a batch of DGL graphs and test it
+    * Question 3: Design the class of GCN networks with DGL
+
+Lab 03 : GAT -- Solution
+    * Question 1: Design the class of GAT networks with DGL
+
+Lab 04 : GatedGCNs -- Solution
+    * Question 1: Design the class of GatedGCN networks with DGL
+
+
+
