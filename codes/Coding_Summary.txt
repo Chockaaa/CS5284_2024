@@ -48,5 +48,15 @@ Lab 03 : GAT -- Solution
 Lab 04 : GatedGCNs -- Solution
     * Question 1: Design the class of GatedGCN networks with DGL
 
+=============================================================
+Lecture : Weisfeiler-Lehman GNNs
+
+Lab 01 : GINs
+Question 1: Define the collate function to prepare a batch of DGL graphs and test it
+Question 2: Design the class of Graph Isomorphism Networks (GIN) with DGL
+Question 3: Design GIN with random feature as input node feature
+Question 4: Design GIN with node index as input node feature
+Question 5: Design GIN with positional encoding as input node feature
+Question 6: Understand the results
 
 
